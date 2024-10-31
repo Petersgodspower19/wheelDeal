@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@media(max-width:510px) {
+    #hero, #mission{
+        flex-direction: column;
+        gap:3rem; 
+    }
+    #hero div,  #mission div{
+        width: 100%;
+    }
+}
